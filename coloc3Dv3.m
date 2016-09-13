@@ -183,14 +183,14 @@ end
 %% Also, because of the difference in screen size, the <Position>
 %% argument may need to be modified
 
-set(0,'Units','Normalized');
-p1 = patch(isosurface(img1thlabel,0)); 
-set(p1,'FaceColor','green','EdgeColor','none','FaceAlpha',1), lighting gouraud;
-hold on, p2 = patch(isosurface(img2thlabel,0)); 
-set(p2,'FaceColor','red','EdgeColor','none','Facealpha',0.3), 
-light; light; light('Position', [-1 -1 -3]); lighting gouraud;, 
-view(3), axis([0 c 0 r 0 z]), daspect([1,1,0.45]); grid off, box off;
-set (gcf, 'Color','Black','Units','Normalized','Position',[.1 .05 .8 .85]), axis vis3d;
-set (gca,'color','k','Xcolor','w','Ycolor','w','Zcolor','w','linewidth',1,'Ztick',[],'Yticklabel',[],'Xticklabel',[]);
+%set(0,'Units','Normalized');
+%p1 = patch(isosurface(img1thlabel,0)); 
+%set(p1,'FaceColor','green','EdgeColor','none','FaceAlpha',1), lighting gouraud;
+%hold on, p2 = patch(isosurface(img2thlabel,0)); 
+%set(p2,'FaceColor','red','EdgeColor','none','Facealpha',0.3), 
+%light; light; light('Position', [-1 -1 -3]); lighting gouraud;, 
+%view(3), axis([0 c 0 r 0 z]), daspect([1,1,0.45]); grid off, box off;
+%set (gcf, 'Color','Black','Units','Normalized','Position',[.1 .05 .8 .85]), axis vis3d;
+%set (gca,'color','k','Xcolor','w','Ycolor','w','Zcolor','w','linewidth',1,'Ztick',[],'Yticklabel',[],'Xticklabel',[]);
 
 end
